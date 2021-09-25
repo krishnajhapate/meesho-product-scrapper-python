@@ -69,7 +69,7 @@ for page in scraping_pages:
                 'child_category':page[4]
             })
     
-    sql_cat.update_data_by_id(page[0],{'scrapped':0})
+    sql_cat.update_data_by_id(page[0],{'scrapped':1})
 
 
 # # start with adding all details of one product from database
